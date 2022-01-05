@@ -1,0 +1,214 @@
+/* mulish-regular - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../font/mulish-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-300 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../font/mulish-v7-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-500 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../font/mulish-v7-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-600 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../font/mulish-v7-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-700 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../font/mulish-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-800 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../font/mulish-v7-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-900 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../font/mulish-v7-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/mulish-v7-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Upper header */
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header_top{
+    background-color: #F5FAFE;
+}
+
+.body{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.header_wrapper{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.help_info{
+    display: flex;
+    align-items: center;
+}
+
+.header_text{
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.right_side{
+    margin-right: 99px;
+}
+
+.right_side:last-child{
+    margin-right: 0;
+}
+
+.right_side_pic{
+    margin-right: 21px;
+
+}
+
+.loyalty{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* Middle header */
+
+.header_middle_wrapper{
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart{
+    margin-left: 120px;
+}
+
+/* Bottom header */
+
+.header_bottom{
+    background-color: #0A223D;
+}
+
+.wrapper_bottom{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.menu{
+    float: left;
+    margin-right: 84px;
+}
+
+.header_item{
+    font-family: "Mulish", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu:last-child{
+    margin-right: 0;
+}
+
+/* Navigation */
+
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+}
+
+.location_item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #0A223D;
+    text-decoration: none;
+}
+.slash{
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.currant_location{
+    float: left;
+    margin-right: 3px;
+}
+
