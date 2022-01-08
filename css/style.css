@@ -561,3 +561,35 @@ html{
     color: #FFFFFF;
 }
 
+/* About Hotel */
+
+.about_hotel{
+    height: 36px;
+    background-color: #F5FAFE;
+}
+
+.about_hotel_setting{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.2vh;
+}
+
+.currant_chosen_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #EC1F46;
+    margin-bottom: 15px;
+}
+
+.bar_about_hotel{
+    width: 130px;
+    height: 4px;
+    background-color: #EC1F46;
+}
+
+.about_hotel_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
