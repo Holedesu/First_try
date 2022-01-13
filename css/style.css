@@ -593,3 +593,260 @@ html{
     font-weight: bold;
     font-size: 14px;
 }
+
+/* Package Summary */
+
+.package_summary{
+    font-family: Mulish, serif;
+    background-color: #F5FAFE;
+}
+
+.summary_title{
+    padding-top: 4vh;
+    padding-bottom: 2.9vh;
+}
+
+.summary_title_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.package_summary_title{
+    height: 6.09vh;
+    width: 37.36vw;
+    background-color: #0A223D;
+}
+
+.package_summary_title_text{
+    color: #FFFFFF;
+}
+
+.package_summary_list{
+    height: 24.36vh;
+    width: 37.36vw;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 15% 35% 15% 35%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.circle_check_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_check_2{
+    grid-area: 2/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_check_3{
+    grid-area: 3/ 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_check{
+    width: 18px;
+    height: 18px;
+}
+
+.circle_check_4{
+    grid-area: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_check_5{
+    grid-area: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_summary_list_text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.package_summary_list{
+    padding-top: 3.28vh;
+    padding-right: 3vw;
+}
+
+.package_summary_title{
+    display: flex;
+    align-items: center;
+    padding-left: 1.66vw;
+}
+
+.offer_details_title{
+    display: flex;
+    align-items: center;
+    padding-left: 1.66vw;
+    height: 6.09vh;
+    width: 37.36vw;
+    background-color: #0A223D;
+}
+
+.offer_details_title_text{
+    color: #FFFFFF;
+}
+
+.offer_details_list{
+    height: 24.36vh;
+    width: 37.36vw;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+    grid-template-rows: 60% ;
+}
+
+.circle_check_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer_details_list_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.calendar_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_details_list_text_bottom{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    grid-area: 2/2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.package_summary_details_block{
+    height: 50px;
+    background-color: #0A223D;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.grid_package_summary_details{
+    height: 550px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 60% 10% 30%;
+}
+
+.red_title_summary_details_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #EC1F46;
+}
+
+.first_list{
+    display: list-item;
+    list-style-image: url("/img/circle_check.svg");
+}
+
+.each_string{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 27px;
+    padding-top: 22px;
+}
+
+.dotted_line{
+    width: 1048px;
+    border: 1px dashed #E0E0E0;
+    height: 0;
+    grid-area: 2/1;
+    margin-left: 24px;
+}
+
+.the_first_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_second_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_third_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_fourth_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/1;
+}
+
+.the_fifth_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/2
+}
+
+.the_sixth_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/3
+}
+
+.highlight_and_details{
+    display: grid;
+    grid-column-gap: 17px;
+    grid-template-columns: 50% 50%;
+
+}
+
+.grid_package{
+    display: grid;
+    grid-row-gap: 33px;
+}
+
