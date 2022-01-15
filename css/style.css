@@ -850,3 +850,269 @@ html{
     grid-row-gap: 33px;
 }
 
+/* Other Package */
+
+.other_package_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin: 105px 0 65px 0;
+}
+
+.shore_view{
+    border-radius: 8px 0 0 8px;
+}
+
+.side_with_text_1{
+    width: 364px;
+    height: 500px;
+    background-color: #0A223D;
+    border-radius: 0 8px 8px 0;
+    padding: 47px 21px 30px 44px;
+}
+
+.hotel_1{
+    display: flex;
+
+}
+
+.hotel_naming{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.long_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-bottom: 51px;
+    line-height: 160.6%;
+}
+
+.smaller_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-bottom: 13px;
+}
+
+.smaller_text:last-child{
+    padding-bottom: 0;
+}
+
+.icons{
+    padding-bottom: 13px;
+}
+.icons:last-child{
+    padding-bottom: 0;
+}
+
+.svg_of_location_guests_rooms{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text_of_location_guests_rooms{
+    padding-left: 15px;
+}
+
+.location_guest_room{
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+
+}
+
+.price_1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+}
+
+.price_2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.book_now{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #EC1F46;
+    color: #FFFFFF;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: 0;
+}
+
+.cool_button{
+    margin-top: 5px;
+}
+
+.price_and_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    margin-bottom: 16px;
+}
+
+.price:last-child{
+    margin-bottom: 0;
+}
+
+.shore_view_2{
+    width: 350px;
+    height: 250px;
+}
+
+.lower_block{
+    width: 350px;
+    height: 250px;
+    background-color: #0A223D;
+    border-radius: 0 0 8px 8px;
+}
+
+.hotel_1_and_2{
+    display: flex;
+
+}
+
+.hotel_1{
+    margin-right: 20px;
+}
+
+.lower_block{
+    padding: 30px 21px 30px 32px;
+}
+
+.invisible_block{
+    height: 23px;
+}
+
+.flash_offer_op{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    background-color: #EC1F46;
+    border-radius: 0 4px 4px 0;
+    margin-top: 26px;
+}
+
+.flash_offer_op_text{
+    padding-top: 9px;
+    padding-right: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.flash_offer_op_mini{
+    width: 60px;
+    height: 18px;
+    background-color: #EC1F46;
+    border-radius: 0 4px 4px 0;
+    position: absolute;
+    margin-top: 26px;
+}
+
+.flash_offer_op_text_mini{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.grid_other_package{
+    display: grid;
+    grid-template-columns: 31% 31% 31% ;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 15px;
+    grid-column-gap: 30px;
+}
+
+
+.hotel_1_and_2{
+    grid-area: 1/1;
+}
+
+.hotel_3{
+    grid-area: 2/1;
+}
+
+.hotel_4{
+    grid-area: 2/2;
+}
+
+.hotel_5{
+    grid-area: 2/3;
+}
+
+/* What people thinks about us */
+
+.people_review{
+    display: flex;
+
+}
+
+.title_review{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 115px;
+    text-transform: uppercase;
+}
+
+.review_block{
+    width: 730px;
+    height: 280px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.photolupa{
+    margin-bottom: 250px;
+    margin-left: 100px;
+}
+
+.photo_quotes_o{
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.photo_quotes_c{
+    position: relative;
+}
+
