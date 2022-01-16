@@ -1070,49 +1070,165 @@ html{
 
 /* What people thinks about us */
 
-.people_review{
-    display: flex;
-
-}
-
 .title_review{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
-    margin-top: 110px;
-    margin-bottom: 115px;
     text-transform: uppercase;
-}
-
-.review_block{
-    width: 730px;
-    height: 280px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.photo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
-    position: relative;
+    margin-top: 110px;
+    margin-bottom: 70px;
 }
 
 .photolupa{
-    margin-bottom: 250px;
-    margin-left: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 20px;
+    z-index: 2;
+
 }
 
-.photo_quotes_o{
+.package_card{
     position: relative;
-    margin-bottom: 200px;
+    width: 730px;
+    height: 280px;
+    text-align: center;
+    background-image: url("../img/png/bg.png");
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: block;
+
+
 }
 
-.photo_quotes_c{
-    position: relative;
+.package_and_arrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.long_text_profile{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.profile_name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #EC1F46;
+    margin-top: 54px;
+}
+
+.comment_date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.profile_star{
+    width: 6px;
+    height: 6px;
+}
+
+/* Subscribe to our Newsletter */
+
+.newsletter{
+    background: url("../img/png/bg_2.png"), rgba(10, 34, 61, 0.8);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+}
+
+.big_news{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.little_news{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.whole_news{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 260px;
+    width: 730px;
+}
+
+.search_input_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 23px;
+    width: 285px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    background-color: #F5FAFE;
+
+}
+
+.search_location_2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    border-style: none;
+    background-color: #F5FAFE;
+}
+
+.search_button_2{
+    width: 65px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    background-color: #EC1F46;
+    border: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.search_bar_2{
+    display: flex;
+}
+
+/* Other Activities */
+
+.other_activity_main_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.card_1{
+    background: url("../img/png/card_bg.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+    background-blend-mode: darken;
+    width: 255px;
+    height: 255px;
+    border-radius: 4px;
+}
+
+.the_card_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
