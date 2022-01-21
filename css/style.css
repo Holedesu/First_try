@@ -1210,11 +1210,18 @@ html{
 
 /* Other Activities */
 
+.grid_activity{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 15px;
+}
+
 .other_activity_main_text{
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
+
 }
 
 .card_1{
@@ -1223,6 +1230,50 @@ html{
     width: 255px;
     height: 255px;
     border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 26px;
+}
+
+.card_2{
+    background: url("../img/png/golf.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+    background-blend-mode: darken;
+    width: 255px;
+    height: 255px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 26px;
+}
+
+.card_3{
+    background: url("../img/png/waterfall.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+    background-blend-mode: darken;
+    width: 255px;
+    height: 255px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 26px;
+}
+
+.card_4{
+    background: url("../img/png/boat.png"), linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+    background-blend-mode: darken;
+    width: 255px;
+    height: 255px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 26px;
 }
 
 .the_card_text{
@@ -1230,5 +1281,175 @@ html{
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+/* Footer */
+
+.footer{
+    height: 900px;
+    background-color: #0A223D;
+    font-family: 'Mulish', serif;
+}
+
+.footer_list_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #BDBDBD;
+}
+
+.title_list{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.social_network{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper_footer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 7.5%;
+}
+
+.footer_list_text_lower{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.main_info_location{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.main_info_phone{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.main_info_mail{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.img_of_info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 21px;
+}
+
+.location_logo{
+    width: 20px;
+    height: 14px;
+}
+
+.phone_logo{
+    height: 17px;
+    width: 17px;
+    margin-bottom: 60px;
+}
+
+.mail_logo{
+    height: 17px;
+    width: 14px;
+}
+
+.left_lower_footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 81px;
+}
+
+.full_name_input{
+    height: 50px;
+    width: 255px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.phone_num_input{
+    height: 50px;
+    width: 255px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.message_input{
+    height: 123px;
+    width: 540px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.send{
+    width: 160px;
+    height: 50px;
+    background-color: #EC1F46;
+    border-radius: 4px;
+    border-style: none;
+    color: #FFFFFF;
+}
+
+.required{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #E0E0E0;
+}
+
+.footer_input{
+    color: #FFFFFF;
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 23px;
+    padding-top: 18px;
+}
+
+.info_and_icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.enter_the_info{
+    display: grid;
+    grid-template-columns: 31% 31%;
+    grid-template-rows: 20% 49% 27%;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    justify-content: end;
+}
+
+.lower_footer{
+    display: flex;
+
+}
+
+.footer_button{
+    grid-area: 3/1;
+}
+
+.required_fields{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    grid-area: 3/2;
 }
 
