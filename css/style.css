@@ -616,6 +616,7 @@ html{
     height: 6.09vh;
     width: 37.36vw;
     background-color: #0A223D;
+    border-radius: 2px 2px 0 0;
 }
 
 .package_summary_title_text{
@@ -629,6 +630,7 @@ html{
     display: grid;
     grid-template-columns: 15% 35% 15% 35%;
     grid-template-rows: 25% 25% 25% 25%;
+    border-radius: 0 0 2px 2px;
 }
 
 .circle_check_1{
@@ -1339,6 +1341,7 @@ html{
     font-weight: normal;
     font-size: 14px;
     color: #BDBDBD;
+    width: 400px;
 }
 
 .main_info_mail{
@@ -1357,12 +1360,13 @@ html{
 .location_logo{
     width: 20px;
     height: 14px;
+    margin-bottom: 13px;
 }
 
 .phone_logo{
     height: 17px;
     width: 17px;
-    margin-bottom: 60px;
+    margin-top: 70px;
 }
 
 .mail_logo{
@@ -1373,7 +1377,9 @@ html{
 .left_lower_footer{
     display: flex;
     flex-direction: column;
-    margin-right: 81px;
+    width: 325px;
+    margin-top: 22px;
+
 }
 
 .full_name_input{
@@ -1381,6 +1387,7 @@ html{
     width: 255px;
     background-color: #FFFFFF;
     border-radius: 4px;
+    grid-area: 2/1;
 }
 
 .phone_num_input{
@@ -1388,6 +1395,7 @@ html{
     width: 255px;
     background-color: #FFFFFF;
     border-radius: 4px;
+    grid-area: 2/2;
 }
 
 .message_input{
@@ -1395,6 +1403,7 @@ html{
     width: 540px;
     background-color: #FFFFFF;
     border-radius: 4px;
+    grid-area: 3/1;
 }
 
 .send{
@@ -1431,7 +1440,7 @@ html{
 .enter_the_info{
     display: grid;
     grid-template-columns: 31% 31%;
-    grid-template-rows: 20% 49% 27%;
+    grid-template-rows: 12% 20% 49% 27%;
     grid-column-gap: 30px;
     grid-row-gap: 15px;
     justify-content: end;
@@ -1443,13 +1452,33 @@ html{
 }
 
 .footer_button{
-    grid-area: 3/1;
+    grid-area: 4/1;
 }
 
 .required_fields{
     display: flex;
     justify-content: flex-end;
     margin-top: 25px;
-    grid-area: 3/2;
+    grid-area: 4/2;
 }
 
+
+.text_bottom{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+
+}
+
+
+.full_bottom_footer{
+    display: flex;
+    width: 696px;
+    justify-content: space-between;
+}
+
+.full_bottom_footer_2{
+    display: flex;
+    justify-content: flex-end;
+}
