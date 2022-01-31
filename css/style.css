@@ -152,7 +152,7 @@ html{
 .left_section_of_middle_header{
     display: flex;
     justify-content: space-between;
-    width: 40vw;
+    width: 635px;
 
 }
 
@@ -194,7 +194,7 @@ html{
 .right_section_of_middle_header{
     display: flex;
     justify-content: space-between;
-    width: 16vw;
+    width: 220px;
 }
 
 .cart{
@@ -421,7 +421,7 @@ html{
 
 .grid{
     display:grid;
-    grid-template-columns: 51vw ;
+    grid-template-columns: 66% 34% ;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
 
@@ -430,7 +430,7 @@ html{
 }
 
 .image_of_pool{
-    width: 38vw;
+    width: 728px;
     height: 450px;
     grid-column: 1;
     grid-row: 1/3;
@@ -450,7 +450,7 @@ html{
 }
 
 .image_of_map{
-    width: 18vw;
+    width: 347px;
     grid-column: 2;
     grid-row: 2;
 }
@@ -517,7 +517,7 @@ html{
 .upper_price_info{
     display: flex;
     justify-content: space-between;
-    width: 21vw;
+    width: 320px;
 }
 
 .quick_booking_text{
@@ -535,7 +535,7 @@ html{
 .quick_booking{
     display: flex;
     justify-content: space-between;
-    width: 21vw;
+    width: 320px;
     padding-bottom: 17px;
     padding-top: 9px;
 
@@ -602,8 +602,8 @@ html{
 }
 
 .summary_title{
-    padding-top: 4vh;
-    padding-bottom: 2.9vh;
+    padding-top: 40px;
+    padding-bottom: 29px;
 }
 
 .summary_title_text{
@@ -613,8 +613,8 @@ html{
 }
 
 .package_summary_title{
-    height: 6.09vh;
-    width: 37.36vw;
+    height: 50px;
+    width: 538px;
     background-color: #0A223D;
     border-radius: 2px 2px 0 0;
 }
@@ -624,8 +624,8 @@ html{
 }
 
 .package_summary_list{
-    height: 24.36vh;
-    width: 37.36vw;
+    height: 200px;
+    width: 538px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 15% 35% 15% 35%;
@@ -682,8 +682,8 @@ html{
 }
 
 .package_summary_list{
-    padding-top: 3.28vh;
-    padding-right: 3vw;
+    padding-top: 20px;
+    padding-right: 35px;
 }
 
 .package_summary_title{
@@ -695,9 +695,9 @@ html{
 .offer_details_title{
     display: flex;
     align-items: center;
-    padding-left: 1.66vw;
-    height: 6.09vh;
-    width: 37.36vw;
+    padding-left: 20px;
+    height: 50px;
+    width: 538px;
     background-color: #0A223D;
 }
 
@@ -706,8 +706,8 @@ html{
 }
 
 .offer_details_list{
-    height: 24.36vh;
-    width: 37.36vw;
+    height: 200px;
+    width: 538px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 10% 40% 10% 40%;
@@ -763,6 +763,7 @@ html{
     display: flex;
     align-items: center;
     padding-left: 24px;
+    margin-top: 33px;
 }
 
 .grid_package_summary_details{
