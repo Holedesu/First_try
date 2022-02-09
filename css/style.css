@@ -517,7 +517,7 @@ html{
 .upper_price_info{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 295px;
 }
 
 .quick_booking_text{
@@ -535,7 +535,7 @@ html{
 .quick_booking{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 295px;
     padding-bottom: 17px;
     padding-top: 9px;
 
@@ -616,7 +616,7 @@ html{
     height: 50px;
     width: 538px;
     background-color: #0A223D;
-    border-radius: 2px 2px 0 0;
+    border-radius: 4px 4px 0 0;
 }
 
 .package_summary_title_text{
@@ -630,7 +630,7 @@ html{
     display: grid;
     grid-template-columns: 15% 35% 15% 35%;
     grid-template-rows: 25% 25% 25% 25%;
-    border-radius: 0 0 2px 2px;
+    border-radius: 0 0 4px 4px;
 }
 
 .circle_check_1{
@@ -699,6 +699,7 @@ html{
     height: 50px;
     width: 538px;
     background-color: #0A223D;
+    border-radius: 4px 4px 0 0;
 }
 
 .offer_details_title_text{
@@ -712,6 +713,7 @@ html{
     display: grid;
     grid-template-columns: 10% 40% 10% 40%;
     grid-template-rows: 60% ;
+    border-radius: 0 0 4px 4px;
 }
 
 .circle_check_6{
@@ -754,6 +756,7 @@ html{
     display: flex;
     justify-content: start;
     align-items: center;
+   
 
 }
 
@@ -764,14 +767,14 @@ html{
     align-items: center;
     padding-left: 24px;
     margin-top: 33px;
+    border-radius:  4px 4px 0 0;
 }
 
 .grid_package_summary_details{
     height: 550px;
     background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 33% 34% 33%;
-    grid-template-rows: 60% 10% 30%;
+    border-radius: 0 0 4px 4px;
+    padding: 24px;
 }
 
 .red_title_summary_details_text{
@@ -779,6 +782,7 @@ html{
     font-weight: 600;
     font-size: 13px;
     color: #EC1F46;
+    text-align: left;
 }
 
 .first_list{
@@ -790,16 +794,29 @@ html{
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    padding-left: 27px;
     padding-top: 22px;
 }
 
 .dotted_line{
+    display: flex;
     width: 1048px;
     border: 1px dashed #E0E0E0;
     height: 0;
-    grid-area: 2/1;
-    margin-left: 24px;
+    margin: 45px 0 33px 24px;
+
+
+}
+
+.upperblock{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lowerblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .the_first_column{
@@ -810,35 +827,33 @@ html{
 
 .the_second_column{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .the_third_column{
     display: flex;
-    justify-content: center;
     align-items: center;
+
 }
 
 .the_fourth_column{
     display: flex;
-    justify-content: center;
     align-items: center;
-    grid-area: 3/1;
+
+
 }
 
 .the_fifth_column{
     display: flex;
-    justify-content: center;
     align-items: center;
-    grid-area: 3/2
+
+
 }
 
 .the_sixth_column{
     display: flex;
-    justify-content: center;
     align-items: center;
-    grid-area: 3/3
+
 }
 
 .highlight_and_details{
@@ -1100,6 +1115,7 @@ html{
     height: 280px;
     text-align: center;
     background-image: url("../img/png/bg.png");
+    background-size: cover;
     margin-top: 70px;
     margin-bottom: 70px;
     display: block;
@@ -1147,6 +1163,8 @@ html{
 .newsletter{
     background: url("../img/png/bg_2.png"), rgba(10, 34, 61, 0.8);
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
@@ -1224,7 +1242,7 @@ html{
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-
+    margin: 57px 0 60px;
 }
 
 .card_1{
@@ -1238,6 +1256,7 @@ html{
     flex-direction: column;
     padding-bottom: 24px;
     padding-left: 26px;
+    margin-bottom: 98px;
 }
 
 .card_2{
@@ -1315,12 +1334,15 @@ html{
     width: 270px;
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
 }
 
 .upper_footer{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-column-gap: 7.5%;
+    padding-top: 108px;
+    margin-bottom: 98px;
 }
 
 .footer_list_text_lower{
@@ -1328,6 +1350,7 @@ html{
     font-weight: normal;
     font-size: 14px;
     color: #BDBDBD;
+    padding-top: 24px;
 }
 
 .main_info_location{
@@ -1355,32 +1378,39 @@ html{
 .img_of_info{
     display: flex;
     flex-direction: column;
-    margin-right: 21px;
+    height: 154px;
+    justify-content: space-between;
+    margin-right: 22px;
 }
 
 .location_logo{
     width: 20px;
     height: 14px;
-    margin-bottom: 13px;
+
 }
 
 .phone_logo{
     height: 17px;
     width: 17px;
-    margin-top: 70px;
+
 }
 
 .mail_logo{
     height: 17px;
     width: 14px;
+    margin-bottom: 22px;
 }
 
 .left_lower_footer{
     display: flex;
     flex-direction: column;
     width: 325px;
-    margin-top: 22px;
+    margin-top: 7px;
 
+}
+
+.contact_details{
+    margin-bottom: 22px;
 }
 
 .full_name_input{
@@ -1431,11 +1461,19 @@ html{
     align-items: center;
     padding-left: 23px;
     padding-top: 18px;
+    box-sizing: border-box;
 }
 
 .info_and_icon{
     display: flex;
     flex-direction: row;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    height: 154px;
+    justify-content: space-between;
 }
 
 .enter_the_info{
@@ -1445,6 +1483,7 @@ html{
     grid-column-gap: 30px;
     grid-row-gap: 15px;
     justify-content: end;
+    padding-right: 30px;
 }
 
 .lower_footer{
