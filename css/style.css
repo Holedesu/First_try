@@ -845,22 +845,17 @@ html{
 .the_fourth_column{
     display: flex;
     align-items: center;
-
-
-
 }
 
 .the_fifth_column{
     display: flex;
     align-items: center;
     margin-left: 12px;
-
 }
 
 .the_sixth_column{
     display: flex;
     align-items: center;
-
 }
 
 .highlight_and_details{
@@ -1464,8 +1459,10 @@ html{
 
 .footer_input{
     border-style: none;
+    height: 50px;
+    width: 255px;
+    border-radius: 4px;
     padding-left: 23px;
-    padding-top: 18px;
 }
 
 .info_and_icon{
