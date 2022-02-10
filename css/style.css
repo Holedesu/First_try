@@ -756,7 +756,7 @@ html{
     display: flex;
     justify-content: start;
     align-items: center;
-   
+
 
 }
 
@@ -785,16 +785,22 @@ html{
     text-align: left;
 }
 
-.first_list{
-    display: list-item;
-    list-style-image: url("/img/circle_check.svg");
+.each_line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.circle_svg{
+    margin-right: 28px;
 }
 
 .each_string{
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    padding-top: 22px;
+
 }
 
 .dotted_line{
@@ -814,9 +820,9 @@ html{
 }
 
 .lowerblock{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-column-gap: 58px;
 }
 
 .the_first_column{
@@ -841,12 +847,13 @@ html{
     align-items: center;
 
 
+
 }
 
 .the_fifth_column{
     display: flex;
     align-items: center;
-
+    margin-left: 12px;
 
 }
 
@@ -1414,6 +1421,8 @@ html{
 }
 
 .full_name_input{
+    display: flex;
+    flex-wrap: wrap;
     height: 50px;
     width: 255px;
     background-color: #FFFFFF;
@@ -1454,14 +1463,9 @@ html{
 }
 
 .footer_input{
-    color: #FFFFFF;
     border-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     padding-left: 23px;
     padding-top: 18px;
-    box-sizing: border-box;
 }
 
 .info_and_icon{
@@ -1507,7 +1511,6 @@ html{
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    color: #FFFFFF;
 
 }
 
